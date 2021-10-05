@@ -5,14 +5,18 @@ margin: 0%;
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 70%;
+  margin: 0 auto 2rem auto;
+  margin-left: auto;
+  margin-right: auto
+
 }
 li {
   list-style: none;
 }
 
 body {
-  font-family: "source code pro", monospace;
+  font-family: 'source code pro', monospace;
   background: url("./fotos/fundo1.jpeg") no-repeat top center ;
   background-attachment: fixed;
   background-size:cover;
@@ -29,7 +33,7 @@ body {
 }  
 
 .box {
-  background: #eee;
+  background: #334756;
   padding: 2rem;
   box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
   border-radius: 25px;
@@ -41,20 +45,67 @@ body {
 .profile-pic{
   border-radius: 50%;
   margin-bottom: 2rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
+  
   
 
 }
+
+.profile span{
+  font-size: 24px;
+
+}
+
+.profile p{
+  font-size: 18px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+
+}
+
 .redes-sociais{
   display: flex;
   justify-content: center;
+
 }
 
 .redes-sociais li {
-  margin-right: 1rem;
+  margin-right: 2rem;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-block: -25px;
 }
 
+
+
+
+
+
+
+
+
+
+/*
+.rodape{
+  padding: 2px 10px;
+  background: cadetblue;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  margin-top: 10px;
+
+}
+
+.rodape li {
+  margin-right: 2rem;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: ;
+
+
+}
+*/
 
 
